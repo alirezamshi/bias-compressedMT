@@ -32,6 +32,7 @@ Sample ```metadata.json``` is provided.
 ```Analysis_BLEU``` class can be used as:
 
 ```
+from bleu import Analysis_BLEU
 analysis = Analysis_BLEU('metadata.json')
 analysis.read_files('sample/base_flores101.txt','sample/model_flores101.txt')
 
